@@ -64,7 +64,7 @@ src/
 
 1. **Clona el repositorio**
    ```bash
-   git clone https://github.com/tu-usuario/time-box-planner.git
+   git clone https://github.com/joshtin2505/time-box
    cd time-box-planner
    ```
 
@@ -221,7 +221,7 @@ npm run build
 
 Si encuentras un bug, por favor:
 
-1. Verifica que no esté ya reportado en [Issues](https://github.com/tu-usuario/time-box-planner/issues)
+1. Verifica que no esté ya reportado en [Issues](https://github.com/joshtin2505/time-box/issues)
 2. Crea un nuevo issue con:
    - Descripción clara del problema
    - Pasos para reproducir
@@ -231,13 +231,13 @@ Si encuentras un bug, por favor:
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la Licencia MIT. Ver el archivo [MIT](LICENSE) para más detalles.
 
 ## 👨‍💻 Autor
 
 **Tu Nombre**
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [Tu Perfil](https://linkedin.com/in/tu-perfil)
+- GitHub: [@joshtin2505](https://github.com/joshtin2505)
+- LinkedIn: [Tu Perfil](https://linkedin.com/in/joshtin)
 - Email: tu.email@ejemplo.com
 
 ## 🙏 Agradecimientos
