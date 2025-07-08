@@ -238,7 +238,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo [MIT](LICENSE) para má
 **Tu Nombre**
 - GitHub: [@joshtin2505](https://github.com/joshtin2505)
 - LinkedIn: [Tu Perfil](https://linkedin.com/in/joshtin)
-- Email: tu.email@ejemplo.com
+- Email: justincastro2505@gmail.com
 
 ## 🙏 Agradecimientos
 
