@@ -1,4 +1,8 @@
 "use client";
+
+import { ExternalLinkIcon } from "lucide-react";
+import { Button } from "../ui/button";
+
 interface SaveIndicatorProps {
   onClearAll: () => void;
   date?: Date;
@@ -17,7 +21,7 @@ export const SaveIndicator = ({ onClearAll, date }: SaveIndicatorProps) => {
   const userLang = window.navigator.language || "es-CO";
   return (
     <header className="mb-4 text-right flex justify-between">
-      <p>
+      <p className="text-muted-foreground">
         {date?.toLocaleDateString(userLang, {
           day: "numeric",
           month: "long",
@@ -37,12 +41,24 @@ export const SaveIndicator = ({ onClearAll, date }: SaveIndicatorProps) => {
         <span className="text-xs text-green-600 bg-green-50 px-2 py-1 rounded">
           ✓ Guardado automáticamente
         </span>
-        <button
+        <Button
+          variant="ghost"
           onClick={handleClear}
-          className=" ml-2 text-xs text-red-600 hover:text-red-800 underline"
+          className="cursor-pointer ml-2 text-xs text-red-600 hover:text-red-800 "
         >
           Borrar todo
-        </button>
+        </Button>
+        <Button variant="link" asChild>
+          <a
+            href="https://github.com/joshtin2505/time-box"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" text-muted-foreground hover:text-primary"
+          >
+            Ver en GitHub
+            <ExternalLinkIcon />
+          </a>
+        </Button>
       </div>
     </header>
   );
